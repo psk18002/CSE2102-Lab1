@@ -27,7 +27,13 @@ Generate a Maven archetype:
 	-DarchetypeVersion=1.4 -DinteractiveMode=false
 
 Download TestMe.java and TestMeTests.java from current repo.
-Within the created archetype, move TestMe.java and TestMeTests.java to directories "./my-app/src/main/java/com/mycompany/app" and "./my-app/src/test/java/com/mycompany/app", respectively
+Within the created archetype, move TestMe.java and TestMeTests.java to directories 
+
+	./my-app/src/main/java/com/mycompany/app 
+ and
+ 
+	./my-app/src/test/java/com/mycompany/app 
+respectively.
 
 Return to terminal and navigate to 'my-app' directory.
 Compile and execute TestMe.java and TestMeTests.java via Maven:
